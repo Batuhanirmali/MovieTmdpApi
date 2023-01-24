@@ -14,7 +14,7 @@ class ApiService {
     // MARK: - Get popular movies data
     func getPopularMoviesData(completion: @escaping (Result<MovieData, Error>) -> Void) {
         
-        let popularMoviesURL = "https://api.themoviedb.org/3/movie/popular?api_key=40be2c22f7268edffde97481d49064a&language=en-US&page=1"
+        let popularMoviesURL = "https://api.themoviedb.org/3/movie/popular?api_key=628bc182a1201cb924359ced0b5dd9b7&language=en-US&page=1"
         
         guard let url = URL(string: popularMoviesURL) else {return}
         
